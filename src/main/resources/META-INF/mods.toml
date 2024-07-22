@@ -2,22 +2,22 @@ modLoader="javafml"
 loaderVersion="[47,)"
 license="MIT"
 [[mods]]
-modId="astralvoyage"
-version="0.1.0"
-displayName="Astral Voyage"
+modId="groundbridge"
+version="0.1.0-DEV"
+displayName="Ground Bridge"
 credits=""
-authors="mistersecret312, Povstalec"
+authors="mistersecret312"
 displayTest="MATCH_VERSION"
 
-description='''Space Travel'''
-[[dependencies.astralvoyage]]
+description='''Ground Bridge'''
+[[dependencies.groundbridge]]
     modId="forge"
     mandatory=true
     versionRange="[47,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.astralvoyage]]
+[[dependencies.groundbridge]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1,1.21)"
