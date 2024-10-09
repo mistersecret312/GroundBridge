@@ -1,4 +1,12 @@
 {
     "creativetab.groundbridge.main": "Groundbridge",
-    "block.groundbridge.energon_crystal_small": "Small Energon Crystal"
+    "block.groundbridge.blue_energon_ore": "Energon Ore",
+    "block.groundbridge.red_energon_ore": "Red Energon Ore",
+    "block.groundbridge.dark_energon_ore": "Dark Energon Ore",
+    "block.groundbridge.toxic_energon_ore": "Toxic Energon Ore",
+    "item.groundbridge.energon": "Energon",
+    "item.groundbridge.red_energon": "Red Energon",
+    "item.groundbridge.dark_energon": "Dark Energon",
+    "item.groundbridge.toxic_energon": "Toxic Energon"
+
 }

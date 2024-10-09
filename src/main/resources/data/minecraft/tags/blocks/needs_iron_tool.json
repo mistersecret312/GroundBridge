@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values":
+    [
+        "groundbridge:blue_energon_ore",
+        "groundbridge:red_energon_ore",
+        "groundbridge:dark_energon_ore",
+        "groundbridge:toxic_energon_ore"
+    ]
+}
