@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "groundbridge:block/toxic_energon_ore"
+    }
+}

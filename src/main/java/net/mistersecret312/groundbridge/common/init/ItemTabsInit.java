@@ -15,10 +15,17 @@ public class ItemTabsInit {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GroundBridge.MODID);
 
     public static final RegistryObject<CreativeModeTab> MAIN = CREATIVE_MODE_TABS.register("main",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(BlockInit.ENERGON_CRYSTAL_SMALL.get().asItem()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ItemInit.BLUE_ENERGON.get()))
                     .title(Component.translatable("creativetab.groundbridge.main"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(BlockInit.ENERGON_CRYSTAL_SMALL.get());
+                        pOutput.accept(ItemInit.BLUE_ENERGON.get());
+                        pOutput.accept(ItemInit.RED_ENERGON.get());
+                        pOutput.accept(ItemInit.DARK_ENERGON.get());
+                        pOutput.accept(ItemInit.TOXIC_ENERGON.get());
+                        pOutput.accept(BlockInit.BLUE_ENERGON_ORE.get());
+                        pOutput.accept(BlockInit.RED_ENERGON_ORE.get());
+                        pOutput.accept(BlockInit.DARK_ENERGON_ORE.get());
+                        pOutput.accept(BlockInit.TOXIC_ENERGON_ORE.get());
                     })
                     .build());
 

@@ -1,0 +1,12 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#minecraft:is_overworld",
+    "features":
+    [
+        "groundbridge:ore_blue_energon",
+        "groundbridge:ore_dark_energon",
+        "groundbridge:ore_red_energon",
+        "groundbridge:ore_toxic_energon"
+    ],
+    "step": "underground_ores"
+}
